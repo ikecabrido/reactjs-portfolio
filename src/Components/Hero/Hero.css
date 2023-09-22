@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@600&family=Righteous&family=Tektur:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@600&family=Pacifico&family=Poiret+One&display=swap");
+
+section#hero {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../pics/bgwithhuman.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section#hero .container .card {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-style: none;
+  color: rgb(0, 0, 0);
+  font-family: "Alfa Slab One", cursive;
+}
+section#hero button {
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: gray;
+  border: 3px solid black;
+  font-size: 18px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+section#hero button:hover {
+  background-color: transparent;
+}
+section#hero button#btn {
+  margin-right: 10px;
+  background-color: transparent;
+}
+section#hero button#btn:hover {
+  background-color: gray;
+}

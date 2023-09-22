@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Frijole&family=Hanalei+Fill&family=Oswald:wght@400;600&family=Righteous&family=Tektur:wght@600&display=swap");
+
+header nav {
+  font-family: "Hanalei Fill", cursive;
+  font-size: large;
+}
+header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
