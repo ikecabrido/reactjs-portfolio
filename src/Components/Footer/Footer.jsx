@@ -7,18 +7,27 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col className="link">
+          <Col>
             <h3>Quick Links</h3>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
           </Col>
-          <Col className="socmed">
+          <Col>
             <h3>Social Media</h3>
+            <a href="">Facebook</a>
+            <a href="">Twitter/X</a>
+            <a href="">Discord</a>
           </Col>
-          <Col className="contact">
+          <Col>
             <h3>Contact Info</h3>
+            <p>Address: Minuyan 5, San Jose del Monte, Bulacan</p>
+            <p>09272726908</p>
+            <p>russcabz28@gmail.com</p>
           </Col>
         </Row>
       </Container>
-      <p>&copy; 2023. All rights reserved.</p>
+      <p className="copyright">&copy; 2023. All rights reserved.</p>
     </footer>
   );
 };
