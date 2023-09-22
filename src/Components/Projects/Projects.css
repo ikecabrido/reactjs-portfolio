@@ -1,0 +1,23 @@
+section#projects {
+  padding: 20px;
+  background-color: rgb(141, 117, 12);
+}
+section#projects h1 {
+  text-align: center;
+  color: white;
+}
+section#projects .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#projects .container .col .card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(179, 151, 27, 0.7);
+  box-shadow: 10px 10px 10px;
+  color: rgb(56, 54, 54);
+}
+section#projects .container .col .card-body {
+  color: white;
+}

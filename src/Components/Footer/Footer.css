@@ -1,0 +1,21 @@
+footer {
+  padding: 20px;
+  color: white;
+  background-color: rgb(112, 106, 106);
+}
+footer .container .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .col .nav a {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .row .col.contacts {
+  display: flex;
+}
+footer p {
+  text-align: center;
+}

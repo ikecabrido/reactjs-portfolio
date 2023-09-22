@@ -1,0 +1,25 @@
+section#about {
+  background-image: url("../pics/bgimg.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section#about .container {
+  padding: 20px;
+}
+section#about .container .col {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section#about .container h1 {
+  text-align: center;
+  color: wheat;
+}
+section#about .container .card {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
