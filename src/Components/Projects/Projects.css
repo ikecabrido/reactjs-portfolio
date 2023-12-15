@@ -17,7 +17,9 @@ section#projects .container .col .card {
   background-color: rgba(179, 151, 27, 0.7);
   box-shadow: 10px 10px 10px;
   color: rgb(56, 54, 54);
+  height: 100%;
+  width: 100%;
 }
-section#projects .container .col .card-body {
+section#projects .container .col .card-body .card-text {
   color: white;
 }
